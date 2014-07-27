@@ -59,7 +59,6 @@ A curated list of awesome Lua frameworks, libraries and software. Inspired by [a
     - [Testing](#testing)
     - [Code Analysis and Linter](#code-analysis-and-linter)
     - [Debugging Tools](#debugging-tools)
-    - [Documentation Tools](#documentation-tools)
     - [Science and Data Analysis](#science-and-data-analysis)
     - [Data Visualization](#data-visualization)
     - [Computer Vision](#computer-vision)
@@ -87,7 +86,6 @@ A curated list of awesome Lua frameworks, libraries and software. Inspired by [a
 *Libraries for Lua version and environment management.*
 
 
-
 ## Package Management
 
 *Libraries for package and dependency management.*
@@ -96,22 +94,22 @@ A curated list of awesome Lua frameworks, libraries and software. Inspired by [a
 * [Luaforge](http://luaforge.net/projects/) - LuaForge was a software project hosring website set up in 2004 by André Carregal and the Kepler Project, to promote development of Lua software modules. 
 * [LuaRocks](http://www.luarocks.org/) - LuaRocks is a system that allows the versioning of Lua packages and their dependencies. LuaRocks guarantees that every package installed will continue to work, even if its dependencies are updated. 
 
+
 ## Distribution
 
 *Libraries to create packaged executables for release distribution.*
 
 * [LuaBinaries](http://luabinaries.sourceforge.net/) - LuaBinaries is a distribution of the Lua libraries and executables compiled for several platforms.
 
+
 ## Build Tools
 
 *Compile software from source code.*
 
 
-
 ## Interactive Interpreter
 
 *Interactive Python interpreters.*
-
 
 
 ## Filesystem
@@ -120,10 +118,10 @@ A curated list of awesome Lua frameworks, libraries and software. Inspired by [a
 
 * [LuaFileSystem](http://keplerproject.github.io/luafilesystem/) - LuaFileSystem is a Lua library developed to complement the set of functions related to file systems offered by the standard Lua distribution.
 
+
 ## Date and Time
 
 *Libraries for working with dates and times.*
-
 
 
 ## Text Processing
@@ -131,17 +129,16 @@ A curated list of awesome Lua frameworks, libraries and software. Inspired by [a
 *Libraries for parsing and manipulating texts.*
 
 
-
 ## Natural Language Processing
 
 *Libraries for working with human languages.*
-
 
 
 ## Documentation
 
 *Libraries for generating project documentation.*
 
+* [LuaDoc](http://keplerproject.github.io/luadoc/) - LuaDoc is a documentation generator tool for Lua source code. 
 
 
 ## Configuration
@@ -149,11 +146,9 @@ A curated list of awesome Lua frameworks, libraries and software. Inspired by [a
 *Libraries for storing configuration options.*
 
 
-
 ## Command-line Tools
 
 *Libraries for building command-line application.*
-
 
 
 ## Downloader
@@ -161,11 +156,9 @@ A curated list of awesome Lua frameworks, libraries and software. Inspired by [a
 *Libraries for downloading.*
 
 
-
 ## Imagery
 
 *Libraries for manipulating images.*
-
 
 
 ## Audio
@@ -173,17 +166,14 @@ A curated list of awesome Lua frameworks, libraries and software. Inspired by [a
 *Libraries for manipulating audio.*
 
 
-
 ## Video
 
 *Libraries for manipulating video and GIFs.*
 
 
-
 ## Geolocation
 
 *Libraries for geocoding addresses and working with latitudes and longitudes.*
-
 
 
 ## HTTP
@@ -192,10 +182,10 @@ A curated list of awesome Lua frameworks, libraries and software. Inspired by [a
 
 * [Xavante](http://keplerproject.github.io/xavante/) - Xavante is a Lua HTTP 1.1 Web server that uses a modular architecture based on URI mapped handlers.
 
+
 ## Database
 
 *Databases implemented in Lua.*
-
 
 
 ## Database Drivers
@@ -208,7 +198,6 @@ A curated list of awesome Lua frameworks, libraries and software. Inspired by [a
     * [Lsqlite](http://luaforge.net/projects/lsqlite/) - A simple libsqlite3 binding for lua5.0-5.2 that provides 3 functions only and is still fully functional: local db = lsqlite.open(database) results, err = db:exec(statments) db:close() 
 
 * NoSQL Databases
-
 
 
 ## ORM
@@ -224,14 +213,15 @@ A curated list of awesome Lua frameworks, libraries and software. Inspired by [a
 
 *Full stack web frameworks.*
 
+* [CGIlua](http://keplerproject.github.io/cgilua/) - CGILua is a tool for creating dynamic Web pages and manipulating input data from Web forms.
 * [Kepler Project](http://www.keplerproject.org/) - Kepler is a community of software developers building open software to help make Lua a viable option for development of web applications.
 * [Orbit](http://keplerproject.github.io/orbit/) - Orbit is an MVC web framework for Lua. 
 * [WSAPI](http://keplerproject.github.io/wsapi/) - WSAPI is an API that abstracts the web server from Lua web applications. 
 
+
 ## Permissions
 
 *Libraries that allow or deny users access to data or functionality.*
-
 
 
 ## CMS
@@ -246,11 +236,9 @@ A curated list of awesome Lua frameworks, libraries and software. Inspired by [a
 *Libraries for developing RESTful APIs.*
 
 
-
 ## Authentication and OAuth
 
 *Libraries for implementing authentications schemes.*
-
 
 
 ## Template Engine
@@ -258,11 +246,9 @@ A curated list of awesome Lua frameworks, libraries and software. Inspired by [a
 *Libraries and tools for templating and lexing.*
 
 
-
 ## Queue
 
 *Libraries for working with event and task queues.*
-
 
 
 ## Search
@@ -270,11 +256,9 @@ A curated list of awesome Lua frameworks, libraries and software. Inspired by [a
 *Libraries and software for indexing and performing search queries on data.*
 
 
-
 ## News Feed
 
 *Libraries for building user's activities.*
-
 
 
 ## Asset Management
@@ -282,11 +266,9 @@ A curated list of awesome Lua frameworks, libraries and software. Inspired by [a
 *Tools for managing, compressing and minifying website assets.*
 
 
-
 ## Caching
 
 *Libraries for caching data.*
-
 
 
 ## Email
@@ -294,11 +276,9 @@ A curated list of awesome Lua frameworks, libraries and software. Inspired by [a
 *Libraries for sending and parsing email.*
 
 
-
 ## Internationalization
 
 *Libraries for woking with i18n.*
-
 
 
 ## URL Manipulation
@@ -306,11 +286,11 @@ A curated list of awesome Lua frameworks, libraries and software. Inspired by [a
 *Libraries for parsing URLs.*
 
 
-
 ## HTML Manipulation
 
 *Libraries for working with HTML and XML.*
 
+* [Luatidy](http://www.bessems.biz/luatidy/) - Lua binding for [HTMLtidy](http://tidy.sourceforge.net/)
 
 
 ## Web Crawling
@@ -318,11 +298,9 @@ A curated list of awesome Lua frameworks, libraries and software. Inspired by [a
 *Libraries for scraping websites.*
 
 
-
 ## Web Content Extracting
 
 *Libraries for extracting web contents.*
-
 
 
 ## Forms
@@ -330,11 +308,9 @@ A curated list of awesome Lua frameworks, libraries and software. Inspired by [a
 *Libraries for working with forms.*
 
 
-
 ## Data Validation
 
 *Libraries for validating data. Used for forms in many cases.*
-
 
 
 ## Anti-spam
@@ -342,11 +318,9 @@ A curated list of awesome Lua frameworks, libraries and software. Inspired by [a
 *Libraries for fighting spam.*
 
 
-
 ## Tagging
 
 *Libraries for tagging items.*
-
 
 
 ## Admin Panels
@@ -354,17 +328,14 @@ A curated list of awesome Lua frameworks, libraries and software. Inspired by [a
 *Libraries for administrative interfaces.*
 
 
-
 ## Static Site Generator
 
 *Static site generator is a software that takes some text + templates as input and produces html files on the output.*
 
 
-
 ## Processes and Threads
 
 *Libraries for woking with processes or threads*
-
 
 
 ## Networking
@@ -379,11 +350,9 @@ A curated list of awesome Lua frameworks, libraries and software. Inspired by [a
 *Libraries for woking with WebSocket.*
 
 
-
 ## WSGI Servers
 
 *WSGI-compatible web servers.*
-
 
 
 ## RPC Servers
@@ -391,9 +360,7 @@ A curated list of awesome Lua frameworks, libraries and software. Inspired by [a
 *RPC-compatible servers.*
 
 
-
 ## Cryptography
-
 
 
 ## GUI
@@ -401,11 +368,9 @@ A curated list of awesome Lua frameworks, libraries and software. Inspired by [a
 *Libraries for working with graphical user interface applications.*
 
 
-
 ## Game Development
 
 *Awesome game development libraries.*
-
 
 
 ## Logging
@@ -413,11 +378,9 @@ A curated list of awesome Lua frameworks, libraries and software. Inspired by [a
 *Libraries for generating and working with log files.*
 
 
-
 ## Testing
 
 *Libraries for testing codebases and generating test data.*
-
 
 
 ## Code Analysis and Linter
@@ -425,18 +388,9 @@ A curated list of awesome Lua frameworks, libraries and software. Inspired by [a
 *Libraries and tools for analysing, parsing and manipulation codebases.*
 
 
-
 ## Debugging Tools
 
 *Libraries for debugging code.*
-
-
-## Documentation Tools
-
-*Library for generate documentation*
-
-* [LuaDoc](http://keplerproject.github.io/luadoc/) - LuaDoc is a documentation generator tool for Lua source code. 
-
 
 
 ## Science and Data Analysis
@@ -444,11 +398,9 @@ A curated list of awesome Lua frameworks, libraries and software. Inspired by [a
 *Libraries for scientific computing and data analyzing.*
 
 
-
 ## Data Visualization
 
 *Libraries for visualizing data.*
-
 
 
 ## Computer Vision
@@ -456,19 +408,17 @@ A curated list of awesome Lua frameworks, libraries and software. Inspired by [a
 *Libraries for computer vision.*
 
 
-
 ## Machine Learning
 
 *Libraries for Machine Learning.*
+
 
 ## MapReduce
 
 *Framworks and libraries for MapReduce.*
 
 
-
 ## Functional Programming
-
 
 
 ## Third-party APIs
@@ -476,11 +426,9 @@ A curated list of awesome Lua frameworks, libraries and software. Inspired by [a
 *Libraries for accessing third party services APIs.*
 
 
-
 ## DevOps Tools
 
 *Software and libraries for DevOps.*
-
 
 
 ## Job Scheduler
@@ -488,11 +436,9 @@ A curated list of awesome Lua frameworks, libraries and software. Inspired by [a
 *Libraries for scheduling jobs.*
 
 
-
 ## Foreign Function Interface
 
 *Libraries for providing foreign function interface.*
-
 
 
 ## High Performance
@@ -500,17 +446,14 @@ A curated list of awesome Lua frameworks, libraries and software. Inspired by [a
 *Libraries for making Python faster.*
 
 
-
 ## Microsoft Windows
 
 *Python programming on Microsoft Windows.*
 
 
-
 ## Hardware
 
 *Libraries for programming with hardware.*
-
 
 
 ## Miscellaneous
@@ -522,7 +465,6 @@ A curated list of awesome Lua frameworks, libraries and software. Inspired by [a
 ## Algorithms and Design Patterns
 
 *Collections of algorithms and design patterns.*
-
 
 
 ## Editor Plugins
