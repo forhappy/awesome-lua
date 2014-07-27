@@ -109,7 +109,7 @@ A curated list of awesome Lua frameworks, libraries and software. Inspired by [a
 
 ## Interactive Interpreter
 
-*Interactive Python interpreters.*
+*Interactive Lua interpreters.*
 
 
 ## Filesystem
@@ -118,6 +118,8 @@ A curated list of awesome Lua frameworks, libraries and software. Inspired by [a
 
 * [LuaFileSystem](http://keplerproject.github.io/luafilesystem/) - LuaFileSystem is a Lua library developed to complement the set of functions related to file systems offered by the standard Lua distribution.
 * [LAR](http://www.keplerproject.org/en/LAR) - LAR stands for Lua ARchive, and consist of a module and a file format that empowers a lua script to load lua modules from within a packaged, compressed file.
+* [LuaZip](http://keplerproject.org/luazip/) - LuaZip is a lightweight Lua extension library used to read files stored inside zip files. The API is very similar to the standard Lua I/O library API.
+* [LuaExpat](http://matthewwild.co.uk/projects/luaexpat/) - LuaExpat is a SAX XML parser based on the Expat library.
 
 ## Date and Time
 
@@ -389,6 +391,9 @@ A curated list of awesome Lua frameworks, libraries and software. Inspired by [a
 
 *Libraries for generating and working with log files.*
 
+* [LuaLogging](http://keplerproject.org/lualogging/) - LuaLogging provides a simple API to use logging features in Lua. Its design was based on log4j. LuaLogging currently supports, through the use of appenders, console, file, email, socket and sql outputs.
+* 
+
 
 ## Testing
 
@@ -403,6 +408,9 @@ A curated list of awesome Lua frameworks, libraries and software. Inspired by [a
 ## Debugging Tools
 
 *Libraries for debugging code.*
+
+* [RemDebug](http://keplerproject.org/remdebug/) - RemDebug is a remote debugger for Lua 5.0 and 5.1. It lets you control the execution of another Lua program remotely, setting breakpoints and inspecting the current state of the program. RemDebug can also debug CGILua scripts.
+* [LuaProfiler](http://keplerproject.org/luaprofiler/) - LuaProfiler is a time profiler designed to help finding bottlenecks on your Lua program.
 
 
 ## Science and Data Analysis
