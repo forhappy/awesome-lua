@@ -8,7 +8,7 @@ A curated list of awesome Lua frameworks, libraries and software. Inspired by [a
     - [Distribution](#distribution)
     - [Build Tools](#build-tools)
     - [Interactive Interpreter](#interactive-interpreter)
-    - [Files](#files)
+    - [Filesystem](#filesystem)
     - [Date and Time](#date-and-time)
     - [Text Processing](#text-processing)
     - [Natural Language Processing](#natural-language-processing)
@@ -59,6 +59,7 @@ A curated list of awesome Lua frameworks, libraries and software. Inspired by [a
     - [Testing](#testing)
     - [Code Analysis and Linter](#code-analysis-and-linter)
     - [Debugging Tools](#debugging-tools)
+    - [Documentation Tools](#documentation-tools)
     - [Science and Data Analysis](#science-and-data-analysis)
     - [Data Visualization](#data-visualization)
     - [Computer Vision](#computer-vision)
@@ -193,7 +194,7 @@ A curated list of awesome Lua frameworks, libraries and software. Inspired by [a
 
 ## Database
 
-*Databases implemented in Python.*
+*Databases implemented in Lua.*
 
 
 
@@ -202,8 +203,12 @@ A curated list of awesome Lua frameworks, libraries and software. Inspired by [a
 *Libraries for connecting and operating databases.*
 
 * Relational Databases
+    * [LuaLDAP](http://www.keplerproject.org/lualdap/) - LuaLDAP is a simple interface from Lua to an LDAP client, in fact it is a bind to OpenLDAP or to ADSI. 
+    * [LuaSQL](http://www.keplerproject.org/luasql/) - LuaSQL is a simple interface from Lua to a DBMS. 
+    * [Lsqlite](http://luaforge.net/projects/lsqlite/) - A simple libsqlite3 binding for lua5.0-5.2 that provides 3 functions only and is still fully functional: local db = lsqlite.open(database) results, err = db:exec(statments) db:close() 
 
 * NoSQL Databases
+
 
 
 ## ORM
@@ -424,6 +429,13 @@ A curated list of awesome Lua frameworks, libraries and software. Inspired by [a
 ## Debugging Tools
 
 *Libraries for debugging code.*
+
+
+## Documentation Tools
+
+*Library for generate documentation*
+
+* [LuaDoc](http://keplerproject.github.io/luadoc/) - LuaDoc is a documentation generator tool for Lua source code. 
 
 
 
