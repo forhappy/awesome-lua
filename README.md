@@ -117,7 +117,7 @@ A curated list of awesome Lua frameworks, libraries and software. Inspired by [a
 *Libraries for accessing the directory structure and file attributes.*
 
 * [LuaFileSystem](http://keplerproject.github.io/luafilesystem/) - LuaFileSystem is a Lua library developed to complement the set of functions related to file systems offered by the standard Lua distribution.
-
+* [LAR](http://www.keplerproject.org/en/LAR) - LAR stands for Lua ARchive, and consist of a module and a file format that empowers a lua script to load lua modules from within a packaged, compressed file.
 
 ## Date and Time
 
@@ -127,6 +127,9 @@ A curated list of awesome Lua frameworks, libraries and software. Inspired by [a
 ## Text Processing
 
 *Libraries for parsing and manipulating texts.*
+
+* [Markdown](http://luaforge.net/projects/markdown/) - A pure-lua implementation of the Markdown text-to-html markup system. 
+* 
 
 
 ## Natural Language Processing
@@ -343,6 +346,8 @@ A curated list of awesome Lua frameworks, libraries and software. Inspired by [a
 *Libraries for network programming.*
 
 * [Copas](http://keplerproject.github.io/copas/) - Copas is a dispatcher based on coroutines that can be used by TCP/IP servers.
+* [LuaEvent](http://repo.or.cz/w/luaevent.git) - This is a binding of libevent to Lua. It will serve as a drop-in replacement for copas, and eventually support more features (async DNS, HTTP, RPC...)
+* [LuaSec](https://github.com/brunoos/luasec) - LuaSec is a binding for OpenSSL library to provide TLS/SSL communication. 
 * [LuaSocket](http://w3.impa.br/~diego/software/luasocket/) - LuaSocket is a Lua extension library that is composed by two parts: a C core that provides support for the TCP and UDP transport layers, and a set of Lua modules that add support for functionality commonly needed by applications that deal with the Internet. 
 
 ## WebSocket
@@ -361,6 +366,13 @@ A curated list of awesome Lua frameworks, libraries and software. Inspired by [a
 
 
 ## Cryptography
+
+*Cryptography libraries*
+
+* [MD5](http://keplerproject.org/md5/) - MD5 offers basic cryptographic facilities for Lua 5.1: a hash (digest) function, a pair crypt/decrypt based on MD5 and CFB, and a pair crypt/decrypt based on DES with 56-bit keys. 
+* [LCrypt](http://luaforge.net/projects/lcrypt/) - LCrypt provides everything needed to implement a basic ssh client or server including symmetric ciphers, hashes, microtime, random strings, big integers, and zlib compression. An example RSA implementation is included. 
+* [LuaCrypto](http://luacrypto.luaforge.net/) - LuaCrypto provides a Lua frontend to the OpenSSL cryptographic library. 
+* 
 
 
 ## GUI
@@ -425,6 +437,7 @@ A curated list of awesome Lua frameworks, libraries and software. Inspired by [a
 
 *Libraries for accessing third party services APIs.*
 
+* [LPeg](http://www.inf.puc-rio.br/~roberto/lpeg/lpeg.html) - LPeg is a new pattern-matching library for Lua, based on Parsing Expression Grammars (PEGs). 
 
 ## DevOps Tools
 
@@ -478,18 +491,16 @@ A curated list of awesome Lua frameworks, libraries and software. Inspired by [a
 
 # Resources
 
+
 Where to discover new Lua libraries.
 
 ## Websites
 
 
-
 ## Weekly
 
 
-
 ## Twitter
-
 
 
 # Other Awesome Lists
