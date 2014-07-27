@@ -91,13 +91,15 @@ A curated list of awesome Lua frameworks, libraries and software. Inspired by [a
 
 *Libraries for package and dependency management.*
 
-
+* [LuaDist](http://luadist.org/) - LuaDist is a true multi-platform package management system that aims to provide both source and binary repository of modules for the Lua programming language. 
+* [Luaforge](http://luaforge.net/projects/) - LuaForge was a software project hosring website set up in 2004 by André Carregal and the Kepler Project, to promote development of Lua software modules. 
+* [LuaRocks](http://www.luarocks.org/) - LuaRocks is a system that allows the versioning of Lua packages and their dependencies. LuaRocks guarantees that every package installed will continue to work, even if its dependencies are updated. 
 
 ## Distribution
 
 *Libraries to create packaged executables for release distribution.*
 
-
+* [LuaBinaries](http://luabinaries.sourceforge.net/) - LuaBinaries is a distribution of the Lua libraries and executables compiled for several platforms.
 
 ## Build Tools
 
@@ -111,11 +113,11 @@ A curated list of awesome Lua frameworks, libraries and software. Inspired by [a
 
 
 
-## Files
+## Filesystem
 
-*Libraries for file manipulation and MIME type detection.*
+*Libraries for accessing the directory structure and file attributes.*
 
-
+* [LuaFileSystem](http://keplerproject.github.io/luafilesystem/) - LuaFileSystem is a Lua library developed to complement the set of functions related to file systems offered by the standard Lua distribution.
 
 ## Date and Time
 
@@ -187,7 +189,7 @@ A curated list of awesome Lua frameworks, libraries and software. Inspired by [a
 
 *Libraries for working with HTTP.*
 
-
+* [Xavante](http://keplerproject.github.io/xavante/) - Xavante is a Lua HTTP 1.1 Web server that uses a modular architecture based on URI mapped handlers.
 
 ## Database
 
@@ -217,7 +219,9 @@ A curated list of awesome Lua frameworks, libraries and software. Inspired by [a
 
 *Full stack web frameworks.*
 
-
+* [Kepler Project](http://www.keplerproject.org/) - Kepler is a community of software developers building open software to help make Lua a viable option for development of web applications.
+* [Orbit](http://keplerproject.github.io/orbit/) - Orbit is an MVC web framework for Lua. 
+* [WSAPI](http://keplerproject.github.io/wsapi/) - WSAPI is an API that abstracts the web server from Lua web applications. 
 
 ## Permissions
 
@@ -229,6 +233,7 @@ A curated list of awesome Lua frameworks, libraries and software. Inspired by [a
 
 *Content management systems*
 
+* [Sputnik]](http://sputnik.freewisdom.org/) - Sputnik is a software application that powers a dynamic website. 
 
 
 ## RESTful API
@@ -361,7 +366,8 @@ A curated list of awesome Lua frameworks, libraries and software. Inspired by [a
 
 *Libraries for network programming.*
 
-
+* [Copas](http://keplerproject.github.io/copas/) - Copas is a dispatcher based on coroutines that can be used by TCP/IP servers.
+* [LuaSocket](http://w3.impa.br/~diego/software/luasocket/) - LuaSocket is a Lua extension library that is composed by two parts: a C core that provides support for the TCP and UDP transport layers, and a set of Lua modules that add support for functionality commonly needed by applications that deal with the Internet. 
 
 ## WebSocket
 
@@ -499,6 +505,7 @@ A curated list of awesome Lua frameworks, libraries and software. Inspired by [a
 
 *Useful libraries or tools that don't fit in the categories above.*
 
+* [Coxpcall](http://keplerproject.github.io/coxpcall/) - Coxpcall encapsulates the protected calls with a coroutine based loop, so errors can be dealed without the usual pcall/xpcall issues with coroutines. 
 
 ## Algorithms and Design Patterns
 
