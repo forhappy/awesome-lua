@@ -10,6 +10,7 @@ A curated list of awesome Lua frameworks, libraries and software. Inspired by [a
     - [Interactive Interpreter](#interactive-interpreter)
     - [Filesystem](#filesystem)
     - [Date and Time](#date-and-time)
+    - [Lua Implementations](#lua-implementations)
     - [Text Processing](#text-processing)
     - [Natural Language Processing](#natural-language-processing)
     - [Documentation](#documentation)
@@ -125,6 +126,13 @@ A curated list of awesome Lua frameworks, libraries and software. Inspired by [a
 
 *Libraries for working with dates and times.*
 
+## Lua Implementations
+
+*All kinds of lua implementations*
+
+* [UniLua](https://github.com/xebecnan/UniLua) - A pure c# implementation of Lua 5.2 focus on compatibility with Unity
+* [Luerl](https://github.com/rvirding/luerl) - An experimental implementation of Lua 5.2 written solely in pure Erlang.
+
 
 ## Text Processing
 
@@ -222,6 +230,7 @@ A curated list of awesome Lua frameworks, libraries and software. Inspired by [a
 * [Kepler Project](http://www.keplerproject.org/) - Kepler is a community of software developers building open software to help make Lua a viable option for development of web applications.
 * [Orbit](http://keplerproject.github.io/orbit/) - Orbit is an MVC web framework for Lua. 
 * [WSAPI](http://keplerproject.github.io/wsapi/) - WSAPI is an API that abstracts the web server from Lua web applications. 
+* [Tir](https://github.com/zedshaw/Tir) - Tir is an experimental web framework for the Mongrel2 webserver and Lua programming language.
 
 
 ## Permissions
@@ -348,9 +357,13 @@ A curated list of awesome Lua frameworks, libraries and software. Inspired by [a
 *Libraries for network programming.*
 
 * [Copas](http://keplerproject.github.io/copas/) - Copas is a dispatcher based on coroutines that can be used by TCP/IP servers.
+* [Luakit](http://mason-larobina.github.io/luakit/) - Fast, small, webkit based browser framework extensible by Lua. 
 * [LuaEvent](http://repo.or.cz/w/luaevent.git) - This is a binding of libevent to Lua. It will serve as a drop-in replacement for copas, and eventually support more features (async DNS, HTTP, RPC...)
 * [LuaSec](https://github.com/brunoos/luasec) - LuaSec is a binding for OpenSSL library to provide TLS/SSL communication. 
 * [LuaSocket](http://w3.impa.br/~diego/software/luasocket/) - LuaSocket is a Lua extension library that is composed by two parts: a C core that provides support for the TCP and UDP transport layers, and a set of Lua modules that add support for functionality commonly needed by applications that deal with the Internet. 
+* [LuaNode](https://github.com/ignacio/LuaNode) - LuaNode allows to write performant net servers or clients, using an asynchronous model of computing (the Reactor pattern). You might have seen this model implemented in event processing frameworks like Node.js, EventMachine or Twisted. In fact, LuaNode is heavily based on Node.js, because I wanted to be able to do what Node.js does, but using Lua instead of JavaScript.
+* [Ngx_lua](https://github.com/openresty/lua-nginx-module) - Embed the power of Lua into Nginx
+
 
 ## WebSocket
 
@@ -386,6 +399,9 @@ A curated list of awesome Lua frameworks, libraries and software. Inspired by [a
 
 *Awesome game development libraries.*
 
+* [Skynet](https://github.com/cloudwu/skynet) - A lightweight online game framework
+* [Scut](https://github.com/ScutGame/Scut) - Scut is a free, open source, stable game server framework, which support C#/Python/Lua script, and support Unity3d, Cocos2dx, FlashAir client access.
+
 
 ## Logging
 
@@ -398,6 +414,8 @@ A curated list of awesome Lua frameworks, libraries and software. Inspired by [a
 ## Testing
 
 *Libraries for testing codebases and generating test data.*
+
+* [Busted](https://github.com/Olivine-Labs/busted) - Elegant Lua unit testing.
 
 
 ## Code Analysis and Linter
@@ -464,7 +482,7 @@ A curated list of awesome Lua frameworks, libraries and software. Inspired by [a
 
 ## High Performance
 
-*Libraries for making Python faster.*
+*Libraries for making Lua faster.*
 
 
 ## Microsoft Windows
@@ -482,6 +500,8 @@ A curated list of awesome Lua frameworks, libraries and software. Inspired by [a
 *Useful libraries or tools that don't fit in the categories above.*
 
 * [Coxpcall](http://keplerproject.github.io/coxpcall/) - Coxpcall encapsulates the protected calls with a coroutine based loop, so errors can be dealed without the usual pcall/xpcall issues with coroutines. 
+* [Penlight](https://github.com/stevedonovan/Penlight) - Penlight brings together a set of generally useful pure Lua modules, focussing on input data handling (such as reading configuration files), functional programming (such as map, reduce, placeholder expressions,etc), and OS path management. Much of the functionality is inspired by the Python standard libraries.
+
 
 ## Algorithms and Design Patterns
 
