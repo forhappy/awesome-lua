@@ -489,7 +489,8 @@ A curated list of awesome Lua frameworks, libraries and software. Inspired by [a
 *Libraries for making Lua faster.*
 
 * [LuaJIT](http://luajit.org/luajit.html) - LuaJIT is a Just-In-Time Compiler (JIT) for the Lua programming language. Lua is a powerful, dynamic and light-weight programming language. It may be embedded or used as a general-purpose, stand-alone language. 
-[Terra](http://terralang.org/) - Terra is a new low-level system programming language that is designed to interoperate seamlessly with the Lua programming language.
+* [Terra](http://terralang.org/) - Terra is a new low-level system programming language that is designed to interoperate seamlessly with the Lua programming language.
+* [LLVM-Lua](https://code.google.com/p/llvm-lua/) - JIT/Static compiler for Lua using LLVM on the backend.
 
 ## Microsoft Windows
 
@@ -525,8 +526,9 @@ A curated list of awesome Lua frameworks, libraries and software. Inspired by [a
 
 # Resources
 
+*Where to discover new Lua libraries.*
 
-Where to discover new Lua libraries.
+* [LuaSearch](http://math2.org/luasearch/) - Navigate Lua Module Documentation
 
 ## Websites
 
