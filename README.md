@@ -396,6 +396,11 @@ A curated list of awesome Lua frameworks, libraries and software. Inspired by [a
 
 *Libraries for working with graphical user interface applications.*
 
+* [wxLua](http://wxlua.sourceforge.net/) - wxLua is a Lua scripting language wrapper around the wxWidgets cross-platform C++ GUI library.
+* [IUP](http://www.tecgraf.puc-rio.br/iup/) - IUP is a multi-platform toolkit for building graphical user interfaces.
+* [Lqt](https://github.com/mkottman/lqt) - lqt is a Lua binding to the Qt framework. It is an automated binding generated from the Qt headers, and covers almost all classes and methods from supported Qt modules.
+* [LuaGnome](http://lua-gtk.luaforge.net/en/index.html) - LuaGnome provides a fairly complete binding to Gnome Libraries Lua, including glib 2.x, gdk, gtk 2.x, and a list of supporting libraries. 
+
 
 ## Game Development
 
@@ -410,7 +415,9 @@ A curated list of awesome Lua frameworks, libraries and software. Inspired by [a
 *Libraries for generating and working with log files.*
 
 * [LuaLogging](http://keplerproject.org/lualogging/) - LuaLogging provides a simple API to use logging features in Lua. Its design was based on log4j. LuaLogging currently supports, through the use of appenders, console, file, email, socket and sql outputs.
-* 
+* [Lsyslog](http://lsyslog.luaforge.net/) - lsyslog is a Lua module that wraps the syslog(3) C API. It has been tested with lua 5.1 on Linux. 
+* [Lua-log](https://github.com/moteus/lua-log) - Asynchronous logging library for Lua 5.1/5.2
+
 
 
 ## Testing
@@ -423,6 +430,8 @@ A curated list of awesome Lua frameworks, libraries and software. Inspired by [a
 ## Code Analysis and Linter
 
 *Libraries and tools for analysing, parsing and manipulation codebases.*
+
+* [Lualint](https://github.com/philips/lualint) - lualint performs luac-based static analysis of global variable usage in Lua source code.
 
 
 ## Debugging Tools
@@ -482,6 +491,8 @@ A curated list of awesome Lua frameworks, libraries and software. Inspired by [a
 ## Foreign Function Interface
 
 *Libraries for providing foreign function interface.*
+
+* [FFI Library](http://luajit.org/ext_ffi.html) - The FFI library allows calling external C functions and using C data structures from pure Lua code. 
 
 
 ## High Performance
