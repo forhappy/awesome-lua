@@ -103,9 +103,13 @@ A curated list of awesome Lua frameworks, libraries and software. Inspired by [a
 * [LuaBinaries](http://luabinaries.sourceforge.net/) - LuaBinaries is a distribution of the Lua libraries and executables compiled for several platforms.
 
 
-## Build Tools
+## Build Tools & IDE
 
 *Compile software from source code.*
+
+* [Decoda](https://github.com/unknownworlds/decoda) - Decoda Lua IDE and debugger.
+* [ZeroBrane Studio](https://github.com/pkulchenko/ZeroBraneStudio) - A lightweight Lua-based IDE for Lua with code completion, syntax highlighting, live coding, remote debugger, and code analyzer.
+
 
 
 ## Interactive Interpreter
@@ -132,6 +136,11 @@ A curated list of awesome Lua frameworks, libraries and software. Inspired by [a
 
 * [UniLua](https://github.com/xebecnan/UniLua) - A pure c# implementation of Lua 5.2 focus on compatibility with Unity
 * [Luerl](https://github.com/rvirding/luerl) - An experimental implementation of Lua 5.2 written solely in pure Erlang.
+* [MoonScript](http://moonscript.org/) - MoonScript is a dynamic scripting language that compiles into Lua.
+* [lua.js](https://github.com/mherkender/lua.js) - An ECMAscript framework to compile and run Lua code, allowing Lua to run in a browser or in Flash.
+* [lua.vm.js](https://github.com/kripken/lua.vm.js) - The Lua VM, on the Web.
+* [Moonshine](http://moonshinejs.org/) - A lightweight Lua VM for the browser.
+* [lua-alchemy](https://github.com/lua-alchemy/lua-alchemy) - Port of the Lua programming language for ActionScript using Alchemy.
 
 
 ## Text Processing
@@ -200,6 +209,8 @@ A curated list of awesome Lua frameworks, libraries and software. Inspired by [a
 
 *Databases implemented in Lua.*
 
+* [Tarantool](https://github.com/tarantool/tarantool) - Tarantool is an efficient NoSQL database and a Lua application server.
+
 
 ## Database Drivers
 
@@ -231,6 +242,10 @@ A curated list of awesome Lua frameworks, libraries and software. Inspired by [a
 * [Orbit](http://keplerproject.github.io/orbit/) - Orbit is an MVC web framework for Lua. 
 * [WSAPI](http://keplerproject.github.io/wsapi/) - WSAPI is an API that abstracts the web server from Lua web applications. 
 * [Tir](https://github.com/zedshaw/Tir) - Tir is an experimental web framework for the Mongrel2 webserver and Lua programming language.
+* [Lapis](https://github.com/leafo/lapis) - A web framework for Lua and OpenResty written in MoonScript.
+* [aLiLua](https://github.com/oneoo/alilua) - A epoll/kqueue based web server, inculded lua/coevent support (support Linux/MacOS/BSD platform).
+* [Bamboo](https://github.com/daogangtang/bamboo) - Bamboo is the web framework of Lua based on Mongrel2, ZeroMQ and NoSQL database.
+* [MOOCHINE](https://github.com/appwilldev/moochine) - A (very) simple and lightweight web framework based on ngx-openresty.
 
 
 ## Permissions
@@ -389,7 +404,6 @@ A curated list of awesome Lua frameworks, libraries and software. Inspired by [a
 * [MD5](http://keplerproject.org/md5/) - MD5 offers basic cryptographic facilities for Lua 5.1: a hash (digest) function, a pair crypt/decrypt based on MD5 and CFB, and a pair crypt/decrypt based on DES with 56-bit keys. 
 * [LCrypt](http://luaforge.net/projects/lcrypt/) - LCrypt provides everything needed to implement a basic ssh client or server including symmetric ciphers, hashes, microtime, random strings, big integers, and zlib compression. An example RSA implementation is included. 
 * [LuaCrypto](http://luacrypto.luaforge.net/) - LuaCrypto provides a Lua frontend to the OpenSSL cryptographic library. 
-* 
 
 
 ## GUI
@@ -408,6 +422,9 @@ A curated list of awesome Lua frameworks, libraries and software. Inspired by [a
 
 * [Skynet](https://github.com/cloudwu/skynet) - A lightweight online game framework
 * [Scut](https://github.com/ScutGame/Scut) - Scut is a free, open source, stable game server framework, which support C#/Python/Lua script, and support Unity3d, Cocos2dx, FlashAir client access.
+* [LoveDOS](https://github.com/rxi/lovedos) - A framework for making 2D DOS games in Lua. LoveDOS provides an API based on a subset of the LÖVE API.
+* [PacPac](https://github.com/tylerneylon/pacpac) - This is Pac-Man from a parallel universe.
+* [aroma](https://github.com/leafo/aroma) - Aroma is game creation framework/platform that targets Chrome's Native Client. It lets you create games that can be distributed through the Chrome Web Store.
 
 
 ## Logging
@@ -471,6 +488,10 @@ A curated list of awesome Lua frameworks, libraries and software. Inspired by [a
 
 ## Functional Programming
 
+*Functional programming in lua*
+
+* [Lua Fun](https://github.com/rtsisyk/luafun) - Lua Fun is a high-performance functional programming library designed for LuaJIT tracing just-in-time compiler.
+
 
 ## Third-party APIs
 
@@ -493,6 +514,7 @@ A curated list of awesome Lua frameworks, libraries and software. Inspired by [a
 *Libraries for providing foreign function interface.*
 
 * [FFI Library](http://luajit.org/ext_ffi.html) - The FFI library allows calling external C functions and using C data structures from pure Lua code. 
+* [NLua](https://github.com/NLua/NLua) - NLua is the bind between Lua world and the .NET world.
 
 
 ## High Performance
@@ -505,7 +527,7 @@ A curated list of awesome Lua frameworks, libraries and software. Inspired by [a
 
 ## Microsoft Windows
 
-*Python programming on Microsoft Windows.*
+*Lua programming on Microsoft Windows.*
 
 
 ## Hardware
