@@ -7,7 +7,7 @@ A curated list of awesome Lua frameworks, libraries and software. Inspired by [a
     - [Package Management](#package-management)
     - [Distribution](#distribution)
     - [Build Tools](#build-tools)
-    - [Interactive Interpreter](#interactive-interpreter)
+    - [Interactive Interpreter](#intferactive-interpreter)
     - [Filesystem](#filesystem)
     - [Date and Time](#date-and-time)
     - [Lua Implementations](#lua-implementations)
@@ -513,7 +513,9 @@ A curated list of awesome Lua frameworks, libraries and software. Inspired by [a
 
 *Libraries for providing foreign function interface.*
 
+* [Alien](http://mascarenhas.github.com/alien) - A C FFI for Lua
 * [FFI Library](http://luajit.org/ext_ffi.html) - The FFI library allows calling external C functions and using C data structures from pure Lua code. 
+* [LuaFFI](https://github.com/jmckaskill/luaffi) - Standalone FFI library for calling C functions from lua. Compatible with the LuaJIT FFI interface.
 * [NLua](https://github.com/NLua/NLua) - NLua is the bind between Lua world and the .NET world.
 
 
