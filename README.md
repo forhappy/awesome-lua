@@ -375,6 +375,10 @@ A curated list of awesome Lua frameworks, libraries and software. Inspired by [a
 
 *Libraries for woking with processes or threads*
 
+* [lua-llthreads](https://github.com/Neopallium/lua-llthreads) - Low-Level threads(pthreads or WIN32 threads) for Lua.
+* [lua-llthreads2](https://github.com/moteus/lua-llthreads2) - Enhancement version of lua-llthreads rewritten without `LuaNativeObjects` code generator
+* [LuaLanes](https://github.com/LuaLanes/lanes) - lightweight, native, lazy evaluating multithreading library for Lua 5.1 and 5.2
+
 
 ## Networking
 
