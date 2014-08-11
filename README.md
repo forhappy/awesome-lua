@@ -130,6 +130,8 @@ A curated list of awesome Lua frameworks, libraries and software. Inspired by [a
 
 *Libraries for working with dates and times.*
 
+* [LuaDate](http://tieske.github.io/date) - Date & Time module for Lua 5.1/5.2
+
 ## Lua Implementations
 
 *All kinds of lua implementations*
