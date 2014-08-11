@@ -414,6 +414,7 @@ A curated list of awesome Lua frameworks, libraries and software. Inspired by [a
 
 *Cryptography libraries*
 
+* [AesFileEncrypt](https://github.com/moteus/lua-AesFileEncrypt) - A simple file encryption library
 * [MD5](http://keplerproject.org/md5/) - MD5 offers basic cryptographic facilities for Lua 5.1: a hash (digest) function, a pair crypt/decrypt based on MD5 and CFB, and a pair crypt/decrypt based on DES with 56-bit keys. 
 * [LCrypt](http://luaforge.net/projects/lcrypt/) - LCrypt provides everything needed to implement a basic ssh client or server including symmetric ciphers, hashes, microtime, random strings, big integers, and zlib compression. An example RSA implementation is included. 
 * [LuaCrypto](http://luacrypto.luaforge.net/) - LuaCrypto provides a Lua frontend to the OpenSSL cryptographic library. 
