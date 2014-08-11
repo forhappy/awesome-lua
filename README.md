@@ -108,6 +108,7 @@ A curated list of awesome Lua frameworks, libraries and software. Inspired by [a
 *Compile software from source code.*
 
 * [Decoda](https://github.com/unknownworlds/decoda) - Decoda Lua IDE and debugger.
+* [Lake](https://github.com/stevedonovan/Lake) - A Lua-based Build Tool
 * [ZeroBrane Studio](https://github.com/pkulchenko/ZeroBraneStudio) - A lightweight Lua-based IDE for Lua with code completion, syntax highlighting, live coding, remote debugger, and code analyzer.
 
 
