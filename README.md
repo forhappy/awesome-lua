@@ -385,12 +385,13 @@ A curated list of awesome Lua frameworks, libraries and software. Inspired by [a
 *Libraries for network programming.*
 
 * [Copas](http://keplerproject.github.io/copas/) - Copas is a dispatcher based on coroutines that can be used by TCP/IP servers.
+* [lua-zmq](https://github.com/Neopallium/lua-zmq) - Lua bindings to ZeroMQ 2
 * [Luakit](http://mason-larobina.github.io/luakit/) - Fast, small, webkit based browser framework extensible by Lua. 
 * [LuaEvent](http://repo.or.cz/w/luaevent.git) - This is a binding of libevent to Lua. It will serve as a drop-in replacement for copas, and eventually support more features (async DNS, HTTP, RPC...)
 * [LuaSec](https://github.com/brunoos/luasec) - LuaSec is a binding for OpenSSL library to provide TLS/SSL communication. 
 * [LuaSocket](http://w3.impa.br/~diego/software/luasocket/) - LuaSocket is a Lua extension library that is composed by two parts: a C core that provides support for the TCP and UDP transport layers, and a set of Lua modules that add support for functionality commonly needed by applications that deal with the Internet. 
 * [LuaNode](https://github.com/ignacio/LuaNode) - LuaNode allows to write performant net servers or clients, using an asynchronous model of computing (the Reactor pattern). You might have seen this model implemented in event processing frameworks like Node.js, EventMachine or Twisted. In fact, LuaNode is heavily based on Node.js, because I wanted to be able to do what Node.js does, but using Lua instead of JavaScript.
-* [lzmq](https://github.com/moteus/lzmq) - A Lua wrapper for the ZeroMQ message library.
+* [lzmq](https://github.com/zeromq/lzmq) - A Lua wrapper for the ZeroMQ message library. Supports ZeroMQ version above 3.2.0
 * [Ngx_lua](https://github.com/openresty/lua-nginx-module) - Embed the power of Lua into Nginx.
 * [Luvit](https://github.com/luvit/luvit) - Luvit is an attempt to do something crazy by taking node.js' awesome architecture and dependencies and seeing how it fits in the Lua language. 
 * [Turbo](http://turbolua.org/) - Turbo provides you with all the stuff you need to develop fast web apps, web API's and networking applications. 
