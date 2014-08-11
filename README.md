@@ -304,6 +304,10 @@ A curated list of awesome Lua frameworks, libraries and software. Inspired by [a
 
 *Libraries for sending and parsing email.*
 
+* [lua-imap4](https://github.com/vrld/imap4.lua) - Simple IMAP4 protocol wrapper for Lua
+* [lua-pop3](https://github.com/moteus/lua-pop3) - POP3 client library for Lua
+* [sendmail](https://github.com/moteus/lua-sendmail) - Simple wrapper around luasoket smtp.send
+
 
 ## Internationalization
 
