@@ -125,6 +125,7 @@ A curated list of awesome Lua frameworks, libraries and software. Inspired by [a
 * [LAR](http://www.keplerproject.org/en/LAR) - LAR stands for Lua ARchive, and consist of a module and a file format that empowers a lua script to load lua modules from within a packaged, compressed file.
 * [LuaZip](http://keplerproject.org/luazip/) - LuaZip is a lightweight Lua extension library used to read files stored inside zip files. The API is very similar to the standard Lua I/O library API.
 * [LuaExpat](http://matthewwild.co.uk/projects/luaexpat/) - LuaExpat is a SAX XML parser based on the Expat library.
+* [lua-path](https://github.com/moteus/lua-path) - File system path manipulation library.
 
 ## Date and Time
 
