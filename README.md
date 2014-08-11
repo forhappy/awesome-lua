@@ -217,8 +217,11 @@ A curated list of awesome Lua frameworks, libraries and software. Inspired by [a
 *Libraries for connecting and operating databases.*
 
 * Relational Databases
+    * [LuaDBI](https://code.google.com/p/luadbi) - LuaDBI is a database interface library for Lua. It is designed to provide a RDBMS agnostic API for handling database operations.
     * [LuaLDAP](http://www.keplerproject.org/lualdap/) - LuaLDAP is a simple interface from Lua to an LDAP client, in fact it is a bind to OpenLDAP or to ADSI. 
+    * [LuaODBC](http://www.keplerproject.org/luasql/) - ODBC Library for Lua. Also provide LuaSQL compatible module.
     * [LuaSQL](http://www.keplerproject.org/luasql/) - LuaSQL is a simple interface from Lua to a DBMS. 
+    * [LuaSQLite3](http://lua.sqlite.org/) - a Lua 5.1 and Lua 5.2 wrapper for the SQLite3 library.
     * [Lsqlite](http://luaforge.net/projects/lsqlite/) - A simple libsqlite3 binding for lua5.0-5.2 that provides 3 functions only and is still fully functional: local db = lsqlite.open(database) results, err = db:exec(statments) db:close() 
 
 * NoSQL Databases
