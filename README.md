@@ -390,6 +390,7 @@ A curated list of awesome Lua frameworks, libraries and software. Inspired by [a
 * [LuaSec](https://github.com/brunoos/luasec) - LuaSec is a binding for OpenSSL library to provide TLS/SSL communication. 
 * [LuaSocket](http://w3.impa.br/~diego/software/luasocket/) - LuaSocket is a Lua extension library that is composed by two parts: a C core that provides support for the TCP and UDP transport layers, and a set of Lua modules that add support for functionality commonly needed by applications that deal with the Internet. 
 * [LuaNode](https://github.com/ignacio/LuaNode) - LuaNode allows to write performant net servers or clients, using an asynchronous model of computing (the Reactor pattern). You might have seen this model implemented in event processing frameworks like Node.js, EventMachine or Twisted. In fact, LuaNode is heavily based on Node.js, because I wanted to be able to do what Node.js does, but using Lua instead of JavaScript.
+* [lzmq](https://github.com/moteus/lzmq) - A Lua wrapper for the ZeroMQ message library.
 * [Ngx_lua](https://github.com/openresty/lua-nginx-module) - Embed the power of Lua into Nginx.
 * [Luvit](https://github.com/luvit/luvit) - Luvit is an attempt to do something crazy by taking node.js' awesome architecture and dependencies and seeing how it fits in the Lua language. 
 * [Turbo](http://turbolua.org/) - Turbo provides you with all the stuff you need to develop fast web apps, web API's and networking applications. 
