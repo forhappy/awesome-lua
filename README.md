@@ -547,6 +547,8 @@ A curated list of awesome Lua frameworks, libraries and software. Inspired by [a
 
 *Lua programming on Microsoft Windows.*
 
+* [lua-pdh](https://github.com/moteus/lua-pdh) - Lua binding to Microsoft Performance Data Helper (PDH) library.
+
 
 ## Hardware
 
