@@ -7,7 +7,7 @@ A curated list of awesome Lua frameworks, libraries and software. Inspired by [a
     - [Package Management](#package-management)
     - [Distribution](#distribution)
     - [Build Tools](#build-tools)
-    - [Interactive Interpreter](#interactive-interpreter)
+    - [Interactive Interpreter](#intferactive-interpreter)
     - [Filesystem](#filesystem)
     - [Date and Time](#date-and-time)
     - [Lua Implementations](#lua-implementations)
@@ -108,6 +108,7 @@ A curated list of awesome Lua frameworks, libraries and software. Inspired by [a
 *Compile software from source code.*
 
 * [Decoda](https://github.com/unknownworlds/decoda) - Decoda Lua IDE and debugger.
+* [Lake](https://github.com/stevedonovan/Lake) - A Lua-based Build Tool
 * [ZeroBrane Studio](https://github.com/pkulchenko/ZeroBraneStudio) - A lightweight Lua-based IDE for Lua with code completion, syntax highlighting, live coding, remote debugger, and code analyzer.
 
 
@@ -125,10 +126,13 @@ A curated list of awesome Lua frameworks, libraries and software. Inspired by [a
 * [LAR](http://www.keplerproject.org/en/LAR) - LAR stands for Lua ARchive, and consist of a module and a file format that empowers a lua script to load lua modules from within a packaged, compressed file.
 * [LuaZip](http://keplerproject.org/luazip/) - LuaZip is a lightweight Lua extension library used to read files stored inside zip files. The API is very similar to the standard Lua I/O library API.
 * [LuaExpat](http://matthewwild.co.uk/projects/luaexpat/) - LuaExpat is a SAX XML parser based on the Expat library.
+* [lua-path](https://github.com/moteus/lua-path) - File system path manipulation library.
 
 ## Date and Time
 
 *Libraries for working with dates and times.*
+
+* [LuaDate](http://tieske.github.io/date) - Date & Time module for Lua 5.1/5.2
 
 ## Lua Implementations
 
@@ -218,8 +222,11 @@ A curated list of awesome Lua frameworks, libraries and software. Inspired by [a
 *Libraries for connecting and operating databases.*
 
 * Relational Databases
+    * [LuaDBI](https://code.google.com/p/luadbi) - LuaDBI is a database interface library for Lua. It is designed to provide a RDBMS agnostic API for handling database operations.
     * [LuaLDAP](http://www.keplerproject.org/lualdap/) - LuaLDAP is a simple interface from Lua to an LDAP client, in fact it is a bind to OpenLDAP or to ADSI. 
+    * [LuaODBC](http://www.keplerproject.org/luasql/) - ODBC Library for Lua. Also provide LuaSQL compatible module.
     * [LuaSQL](http://www.keplerproject.org/luasql/) - LuaSQL is a simple interface from Lua to a DBMS. 
+    * [LuaSQLite3](http://lua.sqlite.org/) - a Lua 5.1 and Lua 5.2 wrapper for the SQLite3 library.
     * [Lsqlite](http://luaforge.net/projects/lsqlite/) - A simple libsqlite3 binding for lua5.0-5.2 that provides 3 functions only and is still fully functional: local db = lsqlite.open(database) results, err = db:exec(statments) db:close() 
 
 * NoSQL Databases
@@ -305,6 +312,10 @@ A curated list of awesome Lua frameworks, libraries and software. Inspired by [a
 
 *Libraries for sending and parsing email.*
 
+* [lua-imap4](https://github.com/vrld/imap4.lua) - Simple IMAP4 protocol wrapper for Lua
+* [lua-pop3](https://github.com/moteus/lua-pop3) - POP3 client library for Lua
+* [sendmail](https://github.com/moteus/lua-sendmail) - Simple wrapper around luasoket smtp.send
+
 
 ## Internationalization
 
@@ -367,17 +378,23 @@ A curated list of awesome Lua frameworks, libraries and software. Inspired by [a
 
 *Libraries for woking with processes or threads*
 
+* [lua-llthreads](https://github.com/Neopallium/lua-llthreads) - Low-Level threads(pthreads or WIN32 threads) for Lua.
+* [lua-llthreads2](https://github.com/moteus/lua-llthreads2) - Enhancement version of lua-llthreads rewritten without `LuaNativeObjects` code generator
+* [LuaLanes](https://github.com/LuaLanes/lanes) - lightweight, native, lazy evaluating multithreading library for Lua 5.1 and 5.2
+
 
 ## Networking
 
 *Libraries for network programming.*
 
 * [Copas](http://keplerproject.github.io/copas/) - Copas is a dispatcher based on coroutines that can be used by TCP/IP servers.
+* [lua-zmq](https://github.com/Neopallium/lua-zmq) - Lua bindings to ZeroMQ 2
 * [Luakit](http://mason-larobina.github.io/luakit/) - Fast, small, webkit based browser framework extensible by Lua. 
 * [LuaEvent](http://repo.or.cz/w/luaevent.git) - This is a binding of libevent to Lua. It will serve as a drop-in replacement for copas, and eventually support more features (async DNS, HTTP, RPC...)
 * [LuaSec](https://github.com/brunoos/luasec) - LuaSec is a binding for OpenSSL library to provide TLS/SSL communication. 
 * [LuaSocket](http://w3.impa.br/~diego/software/luasocket/) - LuaSocket is a Lua extension library that is composed by two parts: a C core that provides support for the TCP and UDP transport layers, and a set of Lua modules that add support for functionality commonly needed by applications that deal with the Internet. 
 * [LuaNode](https://github.com/ignacio/LuaNode) - LuaNode allows to write performant net servers or clients, using an asynchronous model of computing (the Reactor pattern). You might have seen this model implemented in event processing frameworks like Node.js, EventMachine or Twisted. In fact, LuaNode is heavily based on Node.js, because I wanted to be able to do what Node.js does, but using Lua instead of JavaScript.
+* [lzmq](https://github.com/zeromq/lzmq) - A Lua wrapper for the ZeroMQ message library. Supports ZeroMQ version above 3.2.0
 * [Ngx_lua](https://github.com/openresty/lua-nginx-module) - Embed the power of Lua into Nginx.
 * [Luvit](https://github.com/luvit/luvit) - Luvit is an attempt to do something crazy by taking node.js' awesome architecture and dependencies and seeing how it fits in the Lua language. 
 * [Turbo](http://turbolua.org/) - Turbo provides you with all the stuff you need to develop fast web apps, web API's and networking applications. 
@@ -402,6 +419,7 @@ A curated list of awesome Lua frameworks, libraries and software. Inspired by [a
 
 *Cryptography libraries*
 
+* [AesFileEncrypt](https://github.com/moteus/lua-AesFileEncrypt) - A simple file encryption library
 * [MD5](http://keplerproject.org/md5/) - MD5 offers basic cryptographic facilities for Lua 5.1: a hash (digest) function, a pair crypt/decrypt based on MD5 and CFB, and a pair crypt/decrypt based on DES with 56-bit keys. 
 * [LCrypt](http://luaforge.net/projects/lcrypt/) - LCrypt provides everything needed to implement a basic ssh client or server including symmetric ciphers, hashes, microtime, random strings, big integers, and zlib compression. An example RSA implementation is included. 
 * [LuaCrypto](http://luacrypto.luaforge.net/) - LuaCrypto provides a Lua frontend to the OpenSSL cryptographic library. 
@@ -514,7 +532,9 @@ A curated list of awesome Lua frameworks, libraries and software. Inspired by [a
 
 *Libraries for providing foreign function interface.*
 
+* [Alien](http://mascarenhas.github.com/alien) - A C FFI for Lua
 * [FFI Library](http://luajit.org/ext_ffi.html) - The FFI library allows calling external C functions and using C data structures from pure Lua code. 
+* [LuaFFI](https://github.com/jmckaskill/luaffi) - Standalone FFI library for calling C functions from lua. Compatible with the LuaJIT FFI interface.
 * [NLua](https://github.com/NLua/NLua) - NLua is the bind between Lua world and the .NET world.
 
 
@@ -529,6 +549,8 @@ A curated list of awesome Lua frameworks, libraries and software. Inspired by [a
 ## Microsoft Windows
 
 *Lua programming on Microsoft Windows.*
+
+* [lua-pdh](https://github.com/moteus/lua-pdh) - Lua binding to Microsoft Performance Data Helper (PDH) library.
 
 
 ## Hardware
