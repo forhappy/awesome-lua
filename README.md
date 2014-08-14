@@ -141,6 +141,7 @@ A curated list of awesome Lua frameworks, libraries and software. Inspired by [a
 * [lua.vm.js](https://github.com/kripken/lua.vm.js) - The Lua VM, on the Web.
 * [Moonshine](http://moonshinejs.org/) - A lightweight Lua VM for the browser.
 * [lua-alchemy](https://github.com/lua-alchemy/lua-alchemy) - Port of the Lua programming language for ActionScript using Alchemy.
+* [NeoLua](https://neolua.codeplex.com/) - A Lua implementation for the Dynamic Language Runtime (DLR).NeoLua is implemented in C# and uses the Dynamic Language Runtime. It therefore integrates very well with the .net framework.
 
 
 ## Text Processing
