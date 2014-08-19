@@ -451,7 +451,7 @@ A curated list of awesome Lua frameworks, libraries and software. Inspired by [a
 *Libraries for generating and working with log files.*
 
 * [LuaLogging](http://keplerproject.org/lualogging/) - LuaLogging provides a simple API to use logging features in Lua. Its design was based on log4j. LuaLogging currently supports, through the use of appenders, console, file, email, socket and sql outputs.
-* [Lsyslog](http://lsyslog.luaforge.net/) - lsyslog is a Lua module that wraps the syslog(3) C API. It has been tested with lua 5.1 on Linux. 
+* [Lsyslog](https://gitorious.org/lsyslog/lsyslog) - lsyslog is a Lua module that wraps the syslog(3) C API. It has been tested with Lua 5.2 on Linux.
 * [Lua-log](https://github.com/moteus/lua-log) - Asynchronous logging library for Lua 5.1/5.2
 
 
