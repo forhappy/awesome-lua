@@ -265,7 +265,7 @@ A curated list of awesome Lua frameworks, libraries and software. Inspired by [a
 
 *Content management systems*
 
-* [Sputnik]](http://sputnik.freewisdom.org/) - Sputnik is a software application that powers a dynamic website. 
+* [Sputnik](http://sputnik.freewisdom.org/) - Sputnik is a software application that powers a dynamic website. 
 
 
 ## RESTful API
