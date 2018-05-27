@@ -587,7 +587,7 @@ A curated list of awesome Lua frameworks, libraries and software. Inspired by [a
 * [LuaSearch](http://math2.org/luasearch/) - Navigate Lua Module Documentation
 
 ## Websites
-
+* [Programming Community Curated Resources For Learning Lua](https://hackr.io/tutorials/learn-lua)
 
 ## Weekly
 
