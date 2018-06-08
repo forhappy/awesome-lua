@@ -254,6 +254,7 @@ A curated list of awesome Lua frameworks, libraries and software. Inspired by [a
 * [aLiLua](https://github.com/oneoo/alilua) - A epoll/kqueue based web server, inculded lua/coevent support (support Linux/MacOS/BSD platform).
 * [Bamboo](https://github.com/daogangtang/bamboo) - Bamboo is the web framework of Lua based on Mongrel2, ZeroMQ and NoSQL database.
 * [MOOCHINE](https://github.com/appwilldev/moochine) - A (very) simple and lightweight web framework based on ngx-openresty.
+* [Mako Server](https://makoserver.net/) - A small, fast, and compact Application Server and web application platform with the following integrated plugins: Lua Server Pages, Tiny TLS engine, WebSocket Client & Server, High-Level Secure Socket API, Client HTTPS Library, WebDAV File Server, SMQ IoT protocol, MQTT Client, Modbus, SMTP Client, AJAX, JSON, Binary-JSON, XML-RPC, SOAP Web Services, and SQLite.
 
 
 ## Permissions
