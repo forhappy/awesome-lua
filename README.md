@@ -444,6 +444,7 @@ A curated list of awesome Lua frameworks, libraries and software. Inspired by [a
 * [LoveDOS](https://github.com/rxi/lovedos) - A framework for making 2D DOS games in Lua. LoveDOS provides an API based on a subset of the LÖVE API.
 * [PacPac](https://github.com/tylerneylon/pacpac) - This is Pac-Man from a parallel universe.
 * [aroma](https://github.com/leafo/aroma) - Aroma is game creation framework/platform that targets Chrome's Native Client. It lets you create games that can be distributed through the Chrome Web Store.
+* [Cubzh](https://github.com/cubzh/cubzh) - Cubzh is an open-source game engine & gaming platform that allows anyone to rapidly script games using Lua 
 
 
 ## Logging
