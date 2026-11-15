@@ -564,6 +564,7 @@ A curated list of awesome Lua frameworks, libraries and software. Inspired by [a
 
 * [Coxpcall](http://keplerproject.github.io/coxpcall/) - Coxpcall encapsulates the protected calls with a coroutine based loop, so errors can be dealed without the usual pcall/xpcall issues with coroutines. 
 * [Penlight](https://github.com/stevedonovan/Penlight) - Penlight brings together a set of generally useful pure Lua modules, focussing on input data handling (such as reading configuration files), functional programming (such as map, reduce, placeholder expressions,etc), and OS path management. Much of the functionality is inspired by the Python standard libraries.
+* [Obrion](https://www.obrion.xyz) - Free browser-based Lua/Luau obfuscator for Roblox scripts.
 
 
 ## Algorithms and Design Patterns
